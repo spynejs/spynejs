@@ -1,0 +1,13 @@
+{
+  "name": "spynejs",
+  "version": "0.0.1",
+  "description": "Reserved for the SpyneJS framework. See https://spynejs.com for details.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spynejs/spynejs"
+  },
+  "author": "Frank Batista <your-email@example.com>",
+  "license": "MIT",
+  "private": false
+}

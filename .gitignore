@@ -1,0 +1,16 @@
+node_modules/
+.DS_STORE
+*.DS_STORE
+*.idea/
+npm-debug.log
+libs/public
+stats.json
+admin/
+src/assets/media
+.nyc_output*%
+coverage/*
+lib
+!lib/spyne*.js
+dist/
+repo-scripts/*
+.env
