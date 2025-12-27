@@ -1,25 +1,46 @@
 # SpyneJS
+SpyneJS is a reason-based frontend development platform built around a
+**View–Behavior–Logic (VBL) architecture**.
 
-This repo is a placeholder to reserve the `spynejs` name on GitHub and npm.
-
-The official SpyneJS framework is available at:  
-👉 [https://github.com/spynejs/spyne](https://github.com/spynejs/spyne)  
-⭐️ Please star that repo if you're using or following the framework!
-
----
-
-## Installation
-
-The framework is published to npm under the package name:
-
-```bash
-npm install spyne
-```
+VBL mirrors the natural language structure used to describe applications:
+what exists (View), when things happen (Behavior), and why decisions are made (Logic).
 
 ---
 
-## Documentation
+## Core
 
-Visit [https://spynejs.com](https://spynejs.com) for full documentation, tools, and examples.
+- **spyne**  
+  The SpyneJS framework runtime
 
-If you have any questions or want to get involved, feel free to open an issue in the [main repo](https://github.com/spynejs/spyne).
+- **spyne-cli**  
+  Application scaffolding and structured generation of ViewStream, Channel, and SpyneTrait modules
+
+---
+
+## CMS & Authoring
+
+- **@spyne/cms**  
+  CMS runtime plugin for structured JSON authoring inside SpyneJS applications
+
+- **@spyne/cms-adapter**  
+  Local development adapter for safe, deterministic JSON persistence
+
+---
+
+## Developer Tools & Plugins
+
+- **spyne-plugin-console**  
+  Live visualization of channel streams and outputs for inspecting, creating, and capturing application behavior
+
+- **spyne-plugin-starter-template**  
+  Starter template for third-party developers building SpyneJS plugins
+
+---
+
+## Documentation & Resources
+
+- **Documentation**  
+  https://spynejs.com
+
+- **AI & Architecture Rationale**  
+  https://spynejs.ai
