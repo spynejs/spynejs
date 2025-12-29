@@ -19,10 +19,10 @@ what exists (View), when things happen (Behavior), and why decisions are made (L
 
 ## CMS & Authoring
 
-- **@spyne/cms**  
+- **@spynejs/cms**  
   CMS runtime plugin for structured JSON authoring inside SpyneJS applications
 
-- **@spyne/cms-adapter**  
+- **@spynejs/cms-adapter**  
   Local development adapter for safe, deterministic JSON persistence
 
 ---
