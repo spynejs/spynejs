@@ -1,8 +1,8 @@
 # SpyneJS
-SpyneJS is a reason-based frontend development platform built around a
+SpyneJS is a reason-based frontend development platform built around a  
 **View–Behavior–Logic (VBL) architecture**.
 
-VBL mirrors the natural language structure used to describe applications:
+VBL mirrors the natural language structure used to describe applications:  
 what exists (View), when things happen (Behavior), and why decisions are made (Logic).
 
 ---
@@ -27,6 +27,22 @@ what exists (View), when things happen (Behavior), and why decisions are made (L
 
 ---
 
+## Design System & Theming
+
+- **design.spynejs.com**  
+  A token-based design system for SpyneJS applications.
+
+  It provides structured design primitives—spacing, typography, color, layout, and component-level controls—that can be safely customized without breaking application architecture.
+
+  The system is intentionally evolving and designed to support:
+  - Custom themes
+  - Controlled visual variation
+  - Design changes that remain compatible with AI-assisted generation and long-lived applications
+
+  Design tokens act as a stable interface between visual intent and application structure.
+
+---
+
 ## Developer Tools & Plugins
 
 - **spyne-plugin-console**  
@@ -41,6 +57,9 @@ what exists (View), when things happen (Behavior), and why decisions are made (L
 
 - **Documentation**  
   https://spynejs.com
+
+- **Design System**  
+  https://design.spynejs.com
 
 - **AI & Architecture Rationale**  
   https://spynejs.ai
