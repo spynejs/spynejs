@@ -48,8 +48,8 @@ what exists (View), when things happen (Behavior), and why decisions are made (L
 - **[spyne-plugin-console](https://github.com/spynejs/spyne-plugin-console)**  
   Live visualization of channel streams and outputs for inspecting, creating, and capturing application behavior
 
-- **[spyne-plugin-starter-template](https://github.com/spynejs/spyne-plugin-starter-template)**  
-  Starter template for third-party developers building SpyneJS plugins
+- **[plugin-starter](https://github.com/spynejs/plugin-starter)**  
+  Starter template for building SpyneJS plugins
 
 ---
 
