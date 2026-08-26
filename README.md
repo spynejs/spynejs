@@ -17,6 +17,18 @@ what exists (View), when things happen (Behavior), and why decisions are made (L
 
 ---
 
+## AI & Knowledge Layer
+- **[kb](https://github.com/spynejs/kb)**  
+  The SpyneJS Knowledge Base Kit (`@spynejs/kb`) — versioned framework knowledge for AI tools:
+  instruction cards, operation records, and decision trees, conditionally served so agents load
+  only what the task needs.
+  Ships inside every application template and is read from source in `node_modules` — your AI
+  tools work from the current release's knowledge, not stale training data.
+  Refined continuously against a public multi-model benchmark:
+  [benchmark-protocol](https://github.com/relevantcontext/benchmark-protocol)
+
+---
+
 ## CMS & Authoring
 
 - **[@spynejs/cms](https://github.com/spynejs/cms)**  
