@@ -12,12 +12,13 @@ VBL mirrors the natural language structure used to describe applications: what e
 ---
 ## AI & Knowledge Layer
 - **[grammar](https://github.com/spynejs/grammar)**  
-  The SpyneJS Knowledge Base Kit (`@spynejs/kb`) — versioned framework knowledge for AI tools:
-  instruction cards, operation records, and decision trees, conditionally served so agents load
-  only what the task needs.
-  Ships inside every application template and is read from source in `node_modules` — your AI
-  tools work from the current release's knowledge, not stale training data.
-  Refined continuously against a public multi-model benchmark:
+  The SpyneJS Generative Grammar (`@spynejs/grammar`, formerly `@spynejs/kb`) — the rules an AI
+  agent reads to write well-formed SpyneJS code: operation cards, construction records, a mental
+  model, and task trees that route an agent to only what the task needs.
+  `AGENTS.md` is the entry point and takes precedence over the model's prior knowledge of the framework.
+  Ships inside every application template and is read from `node_modules`, so agents work from the
+  current release, not stale training data.
+  Versioned with framework releases and measured against a public multi-model benchmark:
   [benchmark-protocol](https://github.com/relevantcontext/benchmark-protocol)
 ---
 ## CMS & Authoring
