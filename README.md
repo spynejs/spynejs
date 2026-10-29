@@ -11,7 +11,7 @@ VBL mirrors the natural language structure used to describe applications: what e
   Application scaffolding and structured generation of ViewStream, Channel, and SpyneTrait modules
 ---
 ## AI & Knowledge Layer
-- **[kb](https://github.com/spynejs/kb)**  
+- **[grammar](https://github.com/spynejs/grammar)**  
   The SpyneJS Knowledge Base Kit (`@spynejs/kb`) — versioned framework knowledge for AI tools:
   instruction cards, operation records, and decision trees, conditionally served so agents load
   only what the task needs.
